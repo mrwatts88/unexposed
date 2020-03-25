@@ -62,7 +62,7 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={() => createNewUser('Eric')}>Add User</button>
+      <button onClick={() => createNewUser('PETER RULES')}>Add User</button>
       <div>
         {state.users.length}
         {state.users.map(user => (
